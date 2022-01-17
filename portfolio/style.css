@@ -1,0 +1,451 @@
+/* merriweather-regular - latin */
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../portfolio/assets/fonts/merriweather-v28-latin-regular.woff2")
+      format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../portfolio/assets/fonts/merriweather-v28-latin-regular.woff")
+      format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* merriweather-700 - latin */
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("../portfolio/assets/fonts/merriweather-v28-latin-700.woff2")
+      format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../portfolio/assets/fonts/merriweather-v28-latin-700.woff")
+      format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-regular - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../portfolio/assets/fonts/inter-v7-latin-regular.woff2")
+      format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../portfolio/assets/fonts/inter-v7-latin-regular.woff")
+      format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-700 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("../portfolio/assets/fonts/inter-v7-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../portfolio/assets/fonts/inter-v7-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/* styles for header start*/
+.header-container {
+  max-height: 90px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  padding: 0px 20px;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background: url("./assets/img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 0;
+}
+.header-list {
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: end;
+}
+.header-item {
+  display: flex;
+  justify-self: flex-end;
+  margin-left: 30px;
+}
+.header-item-link {
+  font-size: 20px;
+  line-height: 50px;
+  text-decoration: none;
+  color: white;
+}
+.header-logo {
+  background-image: url("./assets/svg/logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.header-logo:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+.header-item-link:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+/* styles for header end*/
+
+/* styles for hero part start*/
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("./assets/img/bg.jpg");
+  background-position: center -90px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 820px;
+}
+.hero-section {
+  max-width: 500px;
+  max-height: 330px;
+  padding-top: 160px;
+  padding-left: 80px;
+}
+
+.hero-info {
+  width: 500px;
+  height: 330px;
+}
+.hero-title {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 120px;
+  color: #ffffff;
+  max-width: 500px;
+  max-height: 120px;
+  margin-bottom: 10px;
+}
+.hero-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  color: #ffffff;
+  max-width: 470px;
+  max-height: 120px;
+  margin-bottom: 25px;
+}
+.button-hire {
+  width: 220px;
+  height: 55px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: #bdae82;
+  font-size: 20px;
+}
+/* styles for hero part end*/
+
+/* styles for skills part start*/
+.skills-container {
+  background-color: black;
+  text-align: center;
+}
+.skills-section {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.section-title {
+  max-width: 700px;
+  max-height: 80px;
+  display: flex;
+  justify-content: center;
+  color: #bdae82;
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 80px;
+  padding-top: 100px;
+  padding-left: 370px;
+  padding-bottom: 60px;
+}
+.skills-list {
+  max-width: 1400px;
+  max-height: 242px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.skills-item {
+  width: 320px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  line-height: 36px;
+}
+.item-name {
+  width: 280px;
+  height: 40px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+.item-text {
+  width: 280px;
+  height: 72px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+/* styles for skills part end*/
+
+/* styles for portfolio part start*/
+.portfolio-container {
+  background-color: black;
+  text-align: center;
+}
+.portfolio-section {
+  width: 1440px;
+  height: 1500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.seasons {
+  max-width: 895px;
+  max-height: 55px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 272px;
+  padding-right: 273px;
+  padding-bottom: 60px;
+}
+.portfolio-images {
+  height: 1145px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  align-items: baseline;
+  align-content: space-between;
+  padding: 0px 20px;
+}
+/* styles for portfolio part end*/
+
+/* styles for video part start*/
+.video-container {
+  background-color: black;
+  text-align: center;
+}
+.video-player {
+  width: 1400px;
+  height: 705px;
+  display: flex;
+  justify-content: center;
+  padding: 0px 20px;
+  position: relative;
+}
+.button-play {
+  position: absolute;
+  width: 129.86px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* styles for video part end*/
+
+/* styles for price part start*/
+.price-container {
+  background-color: black;
+  text-align: center;
+}
+.price-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.price-menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20px;
+  padding-bottom: 100px;
+}
+.standart,
+.premium,
+.gold {
+  height: 505px;
+  width: 450px;
+  border: 2px solid #bdae82;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 36px;
+}
+.price-head {
+  width: 128px;
+  height: 56px;
+  top: 43px;
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 56px;
+  text-align: center;
+  color: #ffffff;
+}
+.price {
+  width: 69px;
+  height: 48px;
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 48px;
+  text-align: center;
+  color: #bdae82;
+}
+.price-text {
+  text-align: center;
+  color: #bdae82;
+}
+.price-button {
+  width: 220px;
+  height: 55px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: #bdae82;
+  font-size: 20px;
+}
+/* styles for price part end*/
+
+/* styles for contacts part start*/
+.contacts-container {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url("./assets/img/contacts.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+.contact-info {
+  width: 450px;
+  height: 445px;
+  color: #bdae82;
+  margin-top: 60px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.contact-head {
+  color: #bdae82;
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: #bdae82;
+  transition: background-color 0s ease-in-out 9000s;
+}
+input {
+  height: 50px;
+  width: 450px;
+  color: #fff;
+  background-color: rgb(0, 0, 0, 0.5);
+  border: 2px solid #bdae82;
+}
+textarea {
+  height: 100px;
+  width: 450px;
+  color: white;
+  background-color: black;
+  border: 2px solid #bdae82;
+}
+::placeholder {
+  color: #bdae82;
+  font-size: 20px;
+  font-family: int;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.button-contact {
+  width: 220px;
+  height: 55px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: #bdae82;
+  font-size: 20px;
+}
+/* styles for contact part end*/
+
+/* styles for footer part start*/
+.footer-container {
+  background-color: black;
+  text-align: center;
+}
+.footer-section {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: black;
+  padding: 0px 20px;
+  font-size: 20px;
+}
+.footer-logo {
+  width: 188px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* styles for footer part end*/
